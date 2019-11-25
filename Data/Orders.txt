@@ -1,0 +1,6 @@
+﻿1
+50 nails 50 planks 1 hammer
+2
+80 planks 1 drill 5 paint (Blue)
+3
+100 screws

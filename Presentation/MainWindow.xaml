@@ -1,0 +1,17 @@
+﻿<Window x:Class="Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400.000" Width="500.000">
+    <Grid>
+        <Button x:Name="btnStock" Content="Make Stock Changes" HorizontalAlignment="Left" Height="50" Margin="176,90,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click"/>
+        <Button x:Name="btnFinance" Content="Approve Finances" HorizontalAlignment="Left" Height="50" Margin="176,145,0,0" VerticalAlignment="Top" Width="150" Click="btnFinance_Click"/>
+        <Button x:Name="btnLogs" Content="View Orders" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="176,200,0,0" Height="50" Click="btnLogs_Click"/>
+        <Label Content="Welcome to DE-Store" HorizontalAlignment="Center" Height="29" Margin="86,35,82,0" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="btnLoyal" Content="Loyalty Card" HorizontalAlignment="Left" Height="50" Margin="176,255,0,0" VerticalAlignment="Top" Width="150" Click="btnLoyal_Click"/>
+
+    </Grid>
+</Window>

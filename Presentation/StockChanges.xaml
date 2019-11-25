@@ -1,0 +1,15 @@
+﻿<Window x:Class="Presentation.StockChanges"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="StockChanges" Height="400.000" Width="500.000">
+    <Grid>
+        <Button x:Name="btnChange" Content="Change Stock" HorizontalAlignment="Left" VerticalAlignment="Top" Width="127" Margin="174,153,0,0" Height="50" Click="btnQuantity_Click"/>
+        <Button x:Name="btnBack" Content="&lt; Back" HorizontalAlignment="Left" Height="30" Margin="432,10,0,0" VerticalAlignment="Top" Width="50" Click="btnBack_Click"/>
+        <Button x:Name="btnAdd" Content="Add New Stock" HorizontalAlignment="Left" Height="50" Margin="174,98,0,0" VerticalAlignment="Top" Width="127" Click="btnAdd_Click"/>
+
+    </Grid>
+</Window>
